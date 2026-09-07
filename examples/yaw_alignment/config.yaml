@@ -1,0 +1,18 @@
+# First experiment: V80 below rated power, fixed wind per episode, hidden bias.
+# Full config defaults are in AlignmentConfig; unknown fields are rejected.
+decision_seconds: 10.0
+simulation_seconds: 1.0
+episode_seconds: 1800.0
+history_windows: 12
+yaw_step_deg: 1.0
+yaw_rate_deg_s: 0.3
+yaw_rest_seconds: 5.0
+travel_limit_deg: 180.0
+tolerance_deg: 2.0
+error_scale_deg: 10.0
+travel_penalty: 0.01
+start_penalty: 0.02
+wind_speed_min: 8.0
+wind_speed_max: 8.0
+initial_error_limit_deg: 15.0
+bias_limit_deg: 10.0

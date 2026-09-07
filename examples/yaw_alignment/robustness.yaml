@@ -1,0 +1,13 @@
+# Synthetic robustness experiment; replace noise and actuator settings with data.
+episode_seconds: 1800.0
+history_windows: 12
+wind_speed_min: 6.0
+wind_speed_max: 10.0
+bias_limit_deg: 10.0
+direction_noise_std_deg: 1.0
+encoder_noise_std_deg: 0.1
+speed_noise_std_mps: 0.1
+power_noise_std_fraction: 0.005
+wind_direction_amplitude_deg: 10.0
+wind_speed_amplitude_mps: 0.5
+wind_period_seconds: 300.0

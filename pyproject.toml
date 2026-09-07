@@ -52,8 +52,8 @@ dev = [
   "jupyter",
 ]
 
-[tool.setuptools]
-packages = ["WindGym"]
+[tool.setuptools.packages.find]
+include = ["WindGym*"]
 
 [tool.setuptools_scm]
 version_file = "WindGym/version.py"

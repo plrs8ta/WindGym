@@ -194,3 +194,6 @@ examples/images/derating_*.gif
 # or Example 5b; ~10-30 min + HAWC2 licence, but reproducible — keep out of git)
 /hawc2_derating_2wt.npz
 /hawc2_derating_2wt.png
+
+# Reproducible local yaw-alignment training and evaluation artifacts.
+/runs/yaw_alignment/

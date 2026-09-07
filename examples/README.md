@@ -2,6 +2,8 @@
 
 This folder contains example scripts and notebooks to help you get started with WindGym.
 
+For a focused introduction to RL for biased-sensor yaw correction, see the [yaw-alignment lab](yaw_alignment/README.md): a single-turbine environment, PPO training, and paired baseline evaluation.
+
 ## Main Examples
 
 The primary examples are provided as Jupyter notebooks:

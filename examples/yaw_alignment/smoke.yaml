@@ -1,0 +1,3 @@
+# Fast execution check only. A 60-second episode is not a control benchmark.
+episode_seconds: 60.0
+history_windows: 12
