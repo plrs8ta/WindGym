@@ -2,6 +2,8 @@
 
 This folder contains example scripts and notebooks to help you get started with WindGym.
 
+For the two-layer PLC automatic yaw execution model, measurement replay, and RL sensor-correction interface, see the [PLC yaw example](plc_yaw/README.md)（含中文说明与执行时序图）.
+
 For a focused introduction to RL for biased-sensor yaw correction, see the [yaw-alignment lab](yaw_alignment/README.md): a single-turbine environment, PPO training, and paired baseline evaluation.
 
 ## Main Examples

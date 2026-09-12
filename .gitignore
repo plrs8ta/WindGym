@@ -197,3 +197,6 @@ examples/images/derating_*.gif
 
 # Reproducible local yaw-alignment training and evaluation artifacts.
 /runs/yaw_alignment/
+
+# PLC yaw simulation traces, figures, and checkpoints.
+/runs/plc_yaw/
